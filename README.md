@@ -9,6 +9,8 @@ then prototype enough of the system to test whether the logic survives reality.
 
 Barcelona · Remote Europe
 
+7+ years across EdTech, consumer apps, fintech and early-stage product work.
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daria%20Karpova-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://es.linkedin.com/in/dokarpov)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/dokarpov)
 [![Email](https://img.shields.io/badge/Email-dokarpov%40gmail.com-111111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dokarpov@gmail.com)
