@@ -53,12 +53,19 @@ This is the evidence boundary I use in product work too: **implemented ≠ valid
 
 ---
 
-## Historical shipped-work outcomes
+## Historical shipped work
 
-The current repositories show how I work now. Earlier shipped products provide the missing **in-market outcome evidence**:
+The experimental repositories above show how I work now. My earlier in-market work spans **EdTech, consumer fintech and telecom / operational systems**. Public GitHub intentionally keeps that evidence at the level of role, scope and shipped surface unless a metric is already public or separately cleared for disclosure.
 
-| Work | My scope | Observed result |
-|---|---|---|
+| Work | Public-safe scope |
+|---|---|
+| **International learning MVP** | 0→1 validation, market testing, product/experience decisions and acquisition experiments across multiple markets |
+| **Consumer fintech** | Product design / requirements ownership across growth, rewards, referral and trust-related flows with PM + engineering |
+| **Cross-team response workflow** | End-to-end process diagnosis and redesign: ownership, escalation, templates, automation scope and service-level operating logic |
+
+I keep former-employer internal metrics, screenshots and source artifacts out of public repositories unless disclosure rights are clear. That boundary is part of the product discipline here, not an omission to hide weak evidence.
+
+---|---|---|
 | **Solver — international learning MVP** | 0→1 validation, product/experience decisions, market experiments | Two markets tested in ~2 months; creative iteration reduced chat-opening cost by **≥41%**; activated-user cost moved from **393–605 RUB** daily cohorts to **79–83 RUB** during the market transition |
 | **Vivid Money — consumer fintech flows** | Product design / requirements ownership on specific growth and trust flows, with PM + engineering | Rewards visits **>1.5×**; referral conversion improved by roughly **⅓**; one cashback-label test increased target action by **15%**; contact-visibility prompt reached ~**40% CTR / 10% opt-in** |
 | **MTS — cross-team response workflow** | End-to-end process diagnosis and redesign; ownership, escalation, templates and automation scope | Full cycle reduced from **6–12 months to 1–2 weeks**, then held within a **14-day SLA** |
