@@ -122,10 +122,35 @@ That is usually where I work.
 
 ## Selected work
 
-- Product systems and decision layers
-- AI-enabled operational workflows
-- 0→1 product concepts and validation
-- Prototypes built to answer real product questions
+### Oído
+Browser-first service commerce for independent hospitality and service businesses.
+
+[Live site ↗](https://dokarpov.github.io/oido-site/) · [Investor view ↗](https://dokarpov.github.io/oido-site/investors/) · [Code ↗](https://github.com/dokarpov/oido-site)
+
+### DARIA.EXE
+A reasoning game for making better calls under uncertainty.
+
+[Play ↗](https://dokarpov.github.io/daria-exe/) · [Code ↗](https://github.com/dokarpov/daria-exe)
+
+### Intake Integrity Lab
+Sales intake and compliance control plane for CRM / 1C: identity resolution, human review, auditability and governed delivery.
+
+[Code ↗](https://github.com/dokarpov/intake-integrity-lab)
+
+### Career Fit Agent
+Evidence-first career agent for eligibility, fit, evidence provenance and application decisions.
+
+[Code ↗](https://github.com/dokarpov/career-fit-agent)
+
+### Policy Kit
+Executable policy layer for agent actions: AUTO / ASK / BLOCK based on risk and decision rights.
+
+[Code ↗](https://github.com/dokarpov/policy-kit)
+
+### Decision Systems
+A compact decision contract for product and agentic workflows: what happened → what next → who decides.
+
+[Code ↗](https://github.com/dokarpov/decision-systems)
 
 Portfolio: [Behance](https://www.behance.net/dokarpov)
 
