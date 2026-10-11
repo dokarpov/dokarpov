@@ -41,7 +41,29 @@ I do not treat a prototype, a passing test and a business outcome as the same th
 ## Selected systems — and what is actually proven
 
 | Product | Product question | Evidence today | What is still unproven |
-|
+|---|---|---|---|
+| **[Oído](https://dokarpov.github.io/oido-site/)** | Can independent service businesses sell through a lightweight browser-first layer without replacing their POS? | Live public + investor sites; responsive browser CI; working pilot proposition | Paid merchant demand, retention, GMV / revenue |
+| **[Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab)** | How should sales intake behave when identity, consent or ownership is uncertain? | 76/76 tests; real PostgreSQL CI; responsive operator-console browser smoke; human review, outbox, audit and policy controls | Production customer deployment and business impact |
+| **[Career Fit Agent](https://github.com/dokarpov/career-fit-agent)** | Can eligibility + provenance improve useful applications without inflating claims? | 22/22 JS tests; 83/83 managed-runtime backend tests; responsive Mini App browser smoke; sanitized evidence objects; dated public vacancy validation | Measured interview/conversion lift and paid traction |
+| **[Policy Kit](https://github.com/dokarpov/policy-kit)** | Even if AI can decide, may this tool action execute? | 10/10 core + 16/16 failure-class evals; responsive browser smoke; executable AUTO / ASK / BLOCK policy | Production authorization / IAM usage |
+| **[Decision Systems](https://github.com/dokarpov/decision-systems)** | Who should decide the next step? | Executable contract + 12/12 routing evals + responsive browser smoke | Production adoption; intentionally a reference primitive |
+| **[DARIA.EXE](https://dokarpov.github.io/daria-exe/)** | Can reasoning under uncertainty become a playable consumer interaction? | Live game; browser validation across desktop + mobile profiles | Retention, repeat play, learning effect, monetisation |
+
+This is the evidence boundary I use in product work too: **implemented ≠ validated ≠ commercially proven**.
+
+---
+
+## Historical shipped work
+
+The repositories above show how I work now. Earlier in-market work spans **EdTech, consumer fintech and telecom / operational systems**.
+
+| Area | Public-safe scope |
+|---|---|
+| **International learning MVP** | 0→1 validation, market testing, product/experience decisions and acquisition experiments across multiple markets |
+| **Consumer fintech** | Product design / requirements ownership across growth, rewards, referral and trust-related flows with PM + engineering |
+| **Cross-team operational workflow** | End-to-end process diagnosis and redesign: ownership, escalation, templates, automation scope and service-level operating logic |
+
+I keep former-employer internal metrics, screenshots and source artifacts out of public repositories unless disclosure rights are clear. That boundary is part of the product discipline here, not an omission to hide weak evidence.
 
 ---
 
