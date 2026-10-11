@@ -4,8 +4,7 @@
 
 ### Product Systems · AI · 0→1 · Fractional Product Lead
 
-I turn ambiguous product and operational problems into explicit decision systems —  
-then prototype enough of the system to test whether the logic survives reality.
+I turn unclear product problems into working systems people can actually use — then test whether the logic survives reality.
 
 Barcelona · Remote Europe
 
@@ -19,100 +18,111 @@ Barcelona · Remote Europe
 
 ---
 
-## The work
+## What I do
 
-I work where **product strategy, operating logic, AI and UX meet**.
+Most of my work starts before there is a neat product brief.
 
-Typical problems are not “design a screen.” They are:
+A team has a messy process, an AI idea, conflicting requirements, too many manual decisions, or a promising concept that is still mostly assumptions. I work out **what problem is worth solving, what the product should decide, where people stay in control, and what evidence would justify building more**.
 
-- what should the system know before it acts?
-- when should AI act, ask or stop?
-- where does evidence come from, and what is safe to claim?
-- how do exceptions reach a person without losing context?
-- which part of a messy manual process is actually worth productizing?
-- what would count as evidence that the product deserves to scale?
+<p align="center">
+  <img src="./assets/product-loop.svg" alt="From problem to explicit choices to prototype to evidence" width="100%">
+</p>
 
-My working loop:
-
-`messy reality → decision model → product logic → prototype → evals → external evidence → scale / kill`
-
-I do not treat a prototype, a passing test and a business outcome as the same thing.
+The important distinction for me is simple: **built is not the same as validated, and validated is not the same as commercially proven.**
 
 ---
 
-## Selected systems — and what is actually proven
+## Selected work
 
-| Product | Product question | Evidence today | What is still unproven |
-|---|---|---|---|
-| **[Oído](https://dokarpov.github.io/oido-site/)** | Can independent service businesses sell through a lightweight browser-first layer without replacing their POS? | Live public + investor sites; responsive browser CI; working pilot proposition | Paid merchant demand, retention, GMV / revenue |
-| **[Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab)** | How should sales intake behave when identity, consent or ownership is uncertain? | 76/76 tests; real PostgreSQL CI; responsive operator-console browser smoke; human review, outbox, audit and policy controls | Production customer deployment and business impact |
-| **[Career Fit Agent](https://github.com/dokarpov/career-fit-agent)** | Can eligibility + provenance improve useful applications without inflating claims? | 22/22 JS tests; 83/83 managed-runtime backend tests; responsive Mini App browser smoke; sanitized evidence objects; dated public vacancy validation | Measured interview/conversion lift and paid traction |
-| **[Policy Kit](https://github.com/dokarpov/policy-kit)** | Even if AI can decide, may this tool action execute? | 10/10 core + 16/16 failure-class evals; responsive browser smoke; executable AUTO / ASK / BLOCK policy | Production authorization / IAM usage |
-| **[Decision Systems](https://github.com/dokarpov/decision-systems)** | Who should decide the next step? | Executable contract + 12/12 routing evals + responsive browser smoke | Production adoption; intentionally a reference primitive |
-| **[DARIA.EXE](https://dokarpov.github.io/daria-exe/)** | Can reasoning under uncertainty become a playable consumer interaction? | Live game; browser validation across desktop + mobile profiles | Retention, repeat play, learning effect, monetisation |
+### 1. [Oído](https://dokarpov.github.io/oido-site/) — turning a service-business pain into a commercial product
 
-This is the evidence boundary I use in product work too: **implemented ≠ validated ≠ commercially proven**.
+Independent service businesses often need a lightweight way to sell and interact with customers without replacing the systems they already use.
+
+I took that problem from proposition to a public product experience: customer-facing site, investor narrative, responsive interaction, implementation and browser testing. The current product is real and usable; what is **not** yet proven is paid merchant demand, retention or transaction volume.
+
+**See:** [business site](https://dokarpov.github.io/oido-site/) · [investor view](https://dokarpov.github.io/oido-site/investors/) · [code](https://github.com/dokarpov/oido-site)
 
 ---
 
-## Historical shipped work
+### 2. [Career Fit Agent](https://github.com/dokarpov/career-fit-agent) — making AI useful without letting it invent a stronger candidate
 
-The repositories above show how I work now. Earlier in-market work spans **EdTech, consumer fintech and telecom / operational systems**.
+Job-search automation has an obvious failure mode: the system can optimise for “more applications” while quietly weakening truth, fit or provenance.
 
-| Area | Public-safe scope |
-|---|---|
-| **International learning MVP** | 0→1 validation, market testing, product/experience decisions and acquisition experiments across multiple markets |
-| **Consumer fintech** | Product design / requirements ownership across growth, rewards, referral and trust-related flows with PM + engineering |
-| **Cross-team operational workflow** | End-to-end process diagnosis and redesign: ownership, escalation, templates, automation scope and service-level operating logic |
+I built a working product around the opposite principle. It checks eligibility, keeps evidence attached to claims, preserves human control over uncertain cases and exposes the result through a browser / Mini App experience.
 
-I keep former-employer internal metrics, screenshots and source artifacts out of public repositories unless disclosure rights are clear. That boundary is part of the product discipline here, not an omission to hide weak evidence.
+Today the implementation has automated test coverage and dated vacancy validation. What is still missing is the result that matters commercially: **measured lift in useful interviews or paid traction.**
 
 ---
 
-## How the systems fit together
+### 3. [Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab) — what happens when a real workflow is ambiguous
 
-```text
-Decision Systems
-Who decides?
-      ↓
-Policy Kit
-May the action execute?
-      ↓
-Intake Integrity Lab
-How do human review, audit and delivery survive a real workflow?
+A clean AI demo is easy when every input is correct. Real sales and operations flows are not: identity may be uncertain, consent may be missing, ownership may conflict and a human may need to intervene.
 
-Career Fit Agent
-A domain product built around evidence + human-control boundaries
+This project turns those edge cases into an operational workflow with review, audit history, delivery controls and a real PostgreSQL-backed test environment.
 
-Oído
-A customer-facing 0→1 commercial product
-
-DARIA.EXE
-A consumer interaction experiment
-```
-
-The portfolio is intentionally broader than AI governance. The common thread is **making product decisions explicit enough to build, test and learn from**.
+It proves the workflow can be implemented and tested. It does **not** claim production customer impact that has not happened yet.
 
 ---
 
-## Best-fit work
+### 4. [Decision Systems](https://github.com/dokarpov/decision-systems) + [Policy Kit](https://github.com/dokarpov/policy-kit) — the reusable pieces underneath
 
-I am most useful in roles such as:
+While building the products above, two recurring questions kept appearing:
+
+**Who should decide the next step?**  
+That became Decision Systems: a small executable decision-routing primitive.
+
+**Even if the system knows what it wants to do, is it allowed to do it?**  
+That became Policy Kit: an executable AUTO / ASK / BLOCK policy layer.
+
+They are deliberately small. They are not presented as standalone businesses; they are reusable product infrastructure extracted from the same problems I was already solving.
+
+---
+
+### 5. [DARIA.EXE](https://dokarpov.github.io/daria-exe/) — an experimental consumer direction
+
+DARIA.EXE explores a different question: whether reasoning under uncertainty can become a genuinely engaging consumer interaction.
+
+It is a public experiment, not a claim of product-market fit. The next meaningful proof is not “more code”; it is whether people understand the mechanic, want to keep playing and come back.
+
+**See:** [play](https://dokarpov.github.io/daria-exe/) · [code](https://github.com/dokarpov/daria-exe)
+
+---
+
+## The through-line
+
+These projects are different on purpose. The common thread is not “AI governance” and it is not a collection of frameworks.
+
+It is the same product habit applied at different levels:
+
+**start with a real user or operating problem → make the decision logic explicit → build enough to expose mistakes → test it → separate evidence from assumption.**
+
+That is also how I work inside larger product teams.
+
+---
+
+## Earlier shipped work
+
+Before these public repositories, I worked on products across EdTech, consumer fintech and operational systems.
+
+**International learning MVP** — 0→1 validation, product and experience decisions, market testing and acquisition experiments across multiple markets.
+
+**Consumer fintech** — product design and requirements ownership across growth, rewards, referral and trust-related flows with product and engineering teams.
+
+**Cross-team operational workflow** — diagnosis and redesign of ownership, escalation, templates, automation scope and service-level logic.
+
+I keep former-employer internal metrics, screenshots and source artifacts private where disclosure rights are unclear. I would rather show a smaller amount of defensible evidence than decorate the portfolio with claims I cannot substantiate.
+
+---
+
+## Where I am most useful
 
 **Principal / Lead Product · AI Product · Product Systems · 0→1 · Fractional Product Lead**
 
-Especially when the problem includes:
-
-- agentic or AI-human workflows;
-- complex operations becoming product;
-- fragmented sources of truth;
-- trust, provenance or review boundaries;
-- product/platform ambiguity across design + engineering + business;
-- a promising idea that needs to become a testable system rather than another deck.
+Best fit: ambiguous products where design, engineering, operations and business all affect the answer — especially AI-human workflows, messy sources of truth, trust / review boundaries, complex operations becoming product, or an early idea that needs to become a testable system rather than another deck.
 
 ---
 
-## Public links
+## Links
 
 **Oído:** [business site](https://dokarpov.github.io/oido-site/) · [investor view](https://dokarpov.github.io/oido-site/investors/) · [code](https://github.com/dokarpov/oido-site)  
 **DARIA.EXE:** [play](https://dokarpov.github.io/daria-exe/) · [code](https://github.com/dokarpov/daria-exe)  
