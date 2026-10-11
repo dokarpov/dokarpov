@@ -53,6 +53,20 @@ This is the evidence boundary I use in product work too: **implemented ≠ valid
 
 ---
 
+## Historical shipped-work outcomes
+
+The current repositories show how I work now. Earlier shipped products provide the missing **in-market outcome evidence**:
+
+| Work | My scope | Observed result |
+|---|---|---|
+| **Solver — international learning MVP** | 0→1 validation, product/experience decisions, market experiments | Two markets tested in ~2 months; creative iteration reduced chat-opening cost by **≥41%**; activated-user cost moved from **393–605 RUB** daily cohorts to **79–83 RUB** during the market transition |
+| **Vivid Money — consumer fintech flows** | Product design / requirements ownership on specific growth and trust flows, with PM + engineering | Rewards visits **>1.5×**; referral conversion improved by roughly **⅓**; one cashback-label test increased target action by **15%**; contact-visibility prompt reached ~**40% CTR / 10% opt-in** |
+| **MTS — cross-team response workflow** | End-to-end process diagnosis and redesign; ownership, escalation, templates and automation scope | Full cycle reduced from **6–12 months to 1–2 weeks**, then held within a **14-day SLA** |
+
+These are historical shipped outcomes, not metrics from the experimental repositories above. I keep the ownership boundary explicit: I do not relabel team delivery, modeled upside or prototype evidence as personal production impact.
+
+---
+
 ## How the systems fit together
 
 ```text
