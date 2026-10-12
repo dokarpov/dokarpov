@@ -12,7 +12,7 @@ I design and build products that make complex decisions, workflows, and informat
 
 | Project | What it explores | Explore |
 | --- | --- | --- |
-| **Rilatu** | Intelligent workflows and decision systems | [Website](https://dokarpov.github.io/rilatu/) · [Repository](https://github.com/dokarpov/rilatu) |
+| **Rilatu** | Traceable freelance work evidence: connect contracts, invoices and payments for purpose-specific review | [Website](https://dokarpov.github.io/rilatu/) · [Repository](https://github.com/dokarpov/rilatu) |
 | **RoleHint** | Role-specific career exploration and interactive simulations | [Website](https://dokarpov.github.io/rolehint/site/) · [Repository](https://github.com/dokarpov/rolehint) |
 | **Oído** | Service commerce and operational coordination | [Website](https://dokarpov.github.io/oido-site/) · [Repository](https://github.com/dokarpov/oido-site) |
 | **DARIA.EXE** | Cinematic interactive storytelling and decisions | [Website](https://dokarpov.github.io/daria-exe/) · [Repository](https://github.com/dokarpov/daria-exe) |
