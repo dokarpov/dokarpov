@@ -1,33 +1,27 @@
 # Daria Karpova
 
-**Product lead & designer · AI products · 0–1**  
-Barcelona · Remote
+**Product designer & founder**  
+AI-powered decision systems · Product strategy · Interactive experiences  
+Barcelona · Working globally
 
-I turn complex workflows and uncertain ideas into products people can use and test.
+I design and build products that make complex decisions, workflows, and information easier to understand and act on. My work spans early-stage product strategy, UX, AI-human interaction, and hands-on prototyping.
 
-[LinkedIn](https://es.linkedin.com/in/dokarpov) · [Design portfolio](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
+[LinkedIn](https://es.linkedin.com/in/dokarpov) · [Portfolio](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
-### Explore the work
+## Selected projects
 
-**[Oído — commerce for independent services](https://dokarpov.github.io/oido-site/)**  
-A mobile storefront concept for independent businesses. [Source](https://github.com/dokarpov/oido-site)
+| Project | What it explores | Explore |
+| --- | --- | --- |
+| **Rilatu** | Intelligent workflows and decision systems | [Website](https://dokarpov.github.io/rilatu/) · [Repository](https://github.com/dokarpov/rilatu) |
+| **RoleHint** | Role-specific career exploration and interactive simulations | [Website](https://dokarpov.github.io/rolehint/site/) · [Repository](https://github.com/dokarpov/rolehint) |
+| **Oído** | Service commerce and operational coordination | [Website](https://dokarpov.github.io/oido-site/) · [Repository](https://github.com/dokarpov/oido-site) |
+| **DARIA.EXE** | Cinematic interactive storytelling and decisions | [Website](https://dokarpov.github.io/daria-exe/) · [Repository](https://github.com/dokarpov/daria-exe) |
+| **Intake Integrity** | Reliable intake and traceable workflows | [Lab](https://github.com/dokarpov/intake-integrity-lab) · [Website source](https://github.com/dokarpov/intake-integrity-site) |
 
-**[RoleHint — evidence-first career agent](https://dokarpov.github.io/rolehint/site/)**  
-Find relevant roles and review fit without invented claims. [Interactive workspace](https://dokarpov.github.io/rolehint/site/workspace.html) · [Source](https://github.com/dokarpov/rolehint)
+## Other work
 
-**[Rilatu — evidence that crosses borders](https://dokarpov.github.io/rilatu/)**  
-An interactive, document-first concept for traceable freelance paperwork. [Try the demo](https://dokarpov.github.io/rilatu/#demo) · [Source](https://github.com/dokarpov/rilatu)
+[Decision Systems](https://github.com/dokarpov/decision-systems) · [Policy Kit](https://github.com/dokarpov/policy-kit)
 
-**[DARIA.EXE — consumer decision experiment](https://dokarpov.github.io/daria-exe/)**  
-A playable case-board experience. [Source](https://github.com/dokarpov/daria-exe)
+**Background:** 7+ years working across digital products, including EdTech, fintech, and consumer experiences.
 
-### More technical work
-
-[Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab) · [Decision Systems](https://github.com/dokarpov/decision-systems) · [Policy Kit](https://github.com/dokarpov/policy-kit)
-
----
-
-**Background:** 7+ years across EdTech, fintech and consumer products.  
-**Focus:** Product strategy, AI-human workflows, UX and validation.
-
-*Experiments are not presented as commercially validated products.*
+*These repositories include prototypes and experiments at different stages of validation.*
