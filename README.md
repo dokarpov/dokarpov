@@ -18,8 +18,6 @@ Find relevant roles and review fit without invented claims. [Interactive workspa
 **[Rilatu — evidence that crosses borders](https://dokarpov.github.io/rilatu/)**  
 A guided prototype connecting agreements, invoices and payments into traceable work evidence. [Try the demo](https://dokarpov.github.io/rilatu/#demo)
 
-**[DARIA.EXE — consumer decision experiment](https://dokarpov.github.io/daria-exe/)**  
-A playable case-board experience.
 
 ### More technical work
 
