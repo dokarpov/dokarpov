@@ -1,31 +1,31 @@
 # Daria Karpova
 
-**Product lead & designer · AI products · 0–1**  
+**Product lead & designer · AI-enabled products · 0–1**  
 Barcelona · Remote
 
-I turn complex workflows and uncertain ideas into products people can use and test.
+I turn complex, ambiguous workflows into understandable products and testable experiences. My work spans product strategy, interaction design, rapid prototyping and evidence-led validation.
 
 [LinkedIn](https://es.linkedin.com/in/dokarpov) · [Design portfolio](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
-### Explore the work
+### Selected product work
 
-**[Oído — commerce for independent services](https://dokarpov.github.io/oido-site/)**  
-A mobile storefront concept for independent businesses.
+**[Oído — independent service commerce](https://dokarpov.github.io/oido-site/)**  
+Browser-based concept for turning service menus into customer-facing storefronts, ordering and feedback flows.
 
-**[RoleHint — evidence-first career agent](https://dokarpov.github.io/rolehint/site/)**  
-Find relevant roles and review fit without invented claims. [Interactive workspace](https://dokarpov.github.io/rolehint/site/workspace.html)
+**[RoleHint — career decisions with evidence](https://dokarpov.github.io/rolehint/site/)**  
+Career-product exploration focused on role fit and verifiable opportunities. [Explore the interface](https://dokarpov.github.io/rolehint/site/workspace.html).
 
-**[Rilatu — evidence that crosses borders](https://dokarpov.github.io/rilatu/)**  
-A guided prototype connecting agreements, invoices and payments into traceable work evidence. [Try the demo](https://dokarpov.github.io/rilatu/#demo)
+**[Rilatu — traceable work evidence](https://dokarpov.github.io/rilatu/)**  
+Research prototype connecting agreements, invoices and payments into a reviewable evidence trail. [Explore the demo](https://dokarpov.github.io/rilatu/#demo).
 
+### Research and technical explorations
 
-### More technical work
-
-Intake Integrity Lab · Decision Systems · Policy Kit
+**[Planriva](https://dokarpov.github.io/planriva-site/)** — architectural documentation and human-reviewed BIM decisions (early technical validation).  
+**Intake Integrity · Decision Systems · Policy Kit** — identity resolution, decision boundaries and policy-aware workflows.
 
 ---
 
 **Background:** 7+ years across EdTech, fintech and consumer products.  
-**Focus:** Product strategy, AI-human workflows, UX and validation.
+**Strengths:** 0–1 product strategy, complex UX, AI-human decision systems and validation.
 
-*Experiments are not presented as commercially validated products.*
+*Public demonstrations are not presented as proof of commercial traction or production readiness.*
