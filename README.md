@@ -7,7 +7,7 @@ I've spent 7+ years working across EdTech, fintech and consumer products. My bac
 
 I also build independent products to explore problems that are hard to solve with another dashboard or another AI-generated answer.
 
-**From my latest post:** [Why I'm building RoleHint](https://www.linkedin.com/posts/dokarpov_job-hunting-has-a-fascinating-feature-collective-activity-7517137903018295296-sVIi) · [The actual product decisions, code and tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md). The complete web application is still being connected; this is a product case, not a fake live demo.
+**From my 17 October RoleHint post:** [Why I'm building RoleHint](https://www.linkedin.com/posts/dokarpov_job-hunting-has-a-fascinating-feature-collective-activity-7517137903018295296-sVIi) · [The actual product decisions, code and tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md). The complete web application is still being connected; this is a product case, not a fake live demo.
 
 [LinkedIn and professional experience](https://www.linkedin.com/in/dokarpov/) · [Earlier visual design work](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
