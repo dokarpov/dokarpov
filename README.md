@@ -7,6 +7,8 @@ I've spent 7+ years working across EdTech, fintech and consumer products. My bac
 
 I also build independent products to explore problems that are hard to solve with another dashboard or another AI-generated answer.
 
+**From my latest post:** [Why I'm building RoleHint](https://www.linkedin.com/posts/dokarpov_job-hunting-has-a-fascinating-feature-collective-activity-7517137903018295296-sVIi) · [The actual product decisions, code and tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md). The complete web application is still being connected; this is a product case, not a fake live demo.
+
 [LinkedIn and professional experience](https://www.linkedin.com/in/dokarpov/) · [Earlier visual design work](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
 ## Decisions behind the work
@@ -26,6 +28,10 @@ A shared or recycled number can represent multiple people. I explored how to dis
 **4. Can a small business publish a useful storefront without changing its existing systems? — Oído**  
 As founding CPO, I work on the merchant setup proposition, multilingual guest experience, pilot design and what evidence would justify expanding the offer. A browser beta is available; paid merchant retention and payments economics still require independent validation.  
 [Explore Oído](https://dokarpov.github.io/oido-site/) · [Read the product and validation decisions](https://github.com/dokarpov/oido-site#product-case-for-reviewers)
+
+## What former colleagues can corroborate
+
+The projects above are mostly independent work. My commercial product experience also includes cross-functional delivery, launch work and developing other designers. A former CPO's [public recommendation](https://www.linkedin.com/in/dokarpov/) describes my ownership of research, prioritisation, cross-team alignment and shipping under tight constraints; a former mentee describes the progression from junior-level work to senior product-design responsibility over two years. These are colleagues' accounts, not self-invented impact numbers.
 
 ## More experiments, fewer promises
 
