@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f6f6f2">
-<title>Personal Treasury Preview</title>
+<link rel="manifest" href="manifest.webmanifest"><title>Personal Treasury Preview</title>
 <style>
 :root{--bg:#f6f6f2;--s:#fff;--s2:#efefe9;--t:#11120f;--m:#6e7168;--l:#dedfd6;--a:#24483a;--a2:#dbe7df;--c2:#6f907f;--c3:#a18b65;--c4:#85849b;--c5:#a76464}
 @media(prefers-color-scheme:dark){:root{--bg:#11120f;--s:#171915;--s2:#22241f;--t:#f4f5ef;--m:#9da096;--l:#30342b;--a:#d1e4d7;--a2:#26392f;--c2:#91b6a3;--c3:#c3ae84;--c4:#aaa8c5;--c5:#c77d7d}}
@@ -63,6 +63,7 @@ q("#review").onclick=function(){var d=[["Mellow → Wise","96%","same timestamp 
 q("#more").onclick=function(){alert("Preview settings: default view, reporting currency, privacy, export")};
 q("#file").onchange=function(e){var f=e.target.files&&e.target.files[0];if(!f)return;f.text().then(function(t){var lines=t.replace(/^\uFEFF/,"").split(/\r?\n/).filter(function(x){return x.trim()});var head=lines[0]||"";var commas=(head.match(/,/g)||[]).length,semi=(head.match(/;/g)||[]).length,del=semi>commas?";":",";var cols=head.split(del).map(function(x){return x.replace(/^"|"$/g,"").trim().toLowerCase()});var ai=cols.findIndex(function(x){return x.indexOf("amount")>=0||x.indexOf("сумм")>=0}),ci=cols.findIndex(function(x){return x.indexOf("currency")>=0||x.indexOf("валют")>=0}),si=cols.findIndex(function(x){return x.indexOf("account")>=0||x.indexOf("сч")>=0});var cs={},as={};for(var i=1;i<Math.min(lines.length,1001);i++){var v=lines[i].split(del);if(ci>=0&&v[ci])cs[v[ci].replace(/"/g,"").trim()]=1;if(si>=0&&v[si])as[v[si].replace(/"/g,"").trim()]=1}q("#result").style.display="block";q("#result").innerHTML="<b>"+f.name+"</b><br>"+Math.max(0,lines.length-1)+" rows · "+Object.keys(cs).length+" currencies · "+Object.keys(as).length+" account labels.<br><span style='color:var(--m)'>Parsed locally; not uploaded.</span>"})};
 remoney();
+if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js").catch(function(){});
 })();
 </script>
 </body></html>
