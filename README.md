@@ -11,6 +11,17 @@ I also build independent products to explore problems that are hard to solve wit
 
 [LinkedIn and professional experience](https://www.linkedin.com/in/dokarpov/) · [Earlier visual design work](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
+## Start here
+
+| Product case | What can be evaluated today | What is not yet proven |
+| --- | --- | --- |
+| [RoleHint](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md) | Product decisions, implemented backend components and tests | A fully connected end-to-end web journey or hiring outcomes |
+| [Intake Integrity](https://github.com/dokarpov/intake-integrity-lab) | Identity and consent rules, engineering controls and a synthetic browser review | Real CRM integration reliability and customer deployment |
+| [Oído](https://github.com/dokarpov/oido-site) | Merchant and guest browser experience, pilot scope and test code | Paid retention, payment economics and repeat merchant usage |
+| [DARIA.EXE](https://github.com/dokarpov/daria-exe) | Playable browser decision loop and browser-test coverage | Commercial demand or retention |
+
+**Evidence standard:** A repository or demo link is not a guarantee of current uptime. Review the latest CI run and test scope before treating a workflow as verified. Simulated flows are labelled; no project is presented as commercially validated without supporting evidence.
+
 ## Decisions behind the work
 
 **1. Why not test the app idea with an app?**  
