@@ -22,6 +22,8 @@ I also build independent products to explore problems that are hard to solve wit
 
 **Evidence standard:** A repository or demo link is not a guarantee of current uptime. Review the latest CI run and test scope before treating a workflow as verified. Simulated flows are labelled; no project is presented as commercially validated without supporting evidence.
 
+**Review the implementation and test evidence:** [RoleHint](https://github.com/dokarpov/rolehint/actions) · [Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab/actions) · [Intake browser experience](https://github.com/dokarpov/intake-integrity-site/actions) · [Oído](https://github.com/dokarpov/oido-site/actions) · [DARIA.EXE](https://github.com/dokarpov/daria-exe/actions). These links show the actual workflow history; a green result is meaningful only within the test's documented scope.
+
 ## Decisions behind the work
 
 **1. Why not test the app idea with an app?**  
