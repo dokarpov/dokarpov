@@ -7,40 +7,24 @@ I've spent 7+ years working across EdTech, fintech and consumer products. My bac
 
 I also build independent products to explore problems that are hard to solve with another dashboard or another AI-generated answer.
 
-**From my 17 October RoleHint post:** [Why I'm building RoleHint](https://www.linkedin.com/posts/dokarpov_job-hunting-has-a-fascinating-feature-collective-activity-7517137903018295296-sVIi) · [The actual product decisions, code and tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md). The complete web application is still being connected; this is a product case, not a fake live demo.
-
 [LinkedIn and professional experience](https://www.linkedin.com/in/dokarpov/) · [Earlier visual design work](https://www.behance.net/dokarpov) · [Email](mailto:dokarpov@gmail.com)
-
-## Start here
-
-| Product case | What can be evaluated today | What is not yet proven |
-| --- | --- | --- |
-| [RoleHint](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md) | Product decisions, implemented backend components and tests | A fully connected end-to-end web journey or hiring outcomes |
-| [Intake Integrity](https://github.com/dokarpov/intake-integrity-lab) | Identity and consent rules, engineering controls and a synthetic browser review | Real CRM integration reliability and customer deployment |
-| [Oído](https://github.com/dokarpov/oido-site) | Merchant and guest browser experience, pilot scope and test code | Paid retention, payment economics and repeat merchant usage |
-| [DARIA.EXE](https://github.com/dokarpov/daria-exe) | Playable browser decision loop and browser-test coverage | Commercial demand or retention |
-
-**Evidence standard:** A repository or demo link is not a guarantee of current uptime. Review the latest CI run and test scope before treating a workflow as verified. Simulated flows are labelled; no project is presented as commercially validated without supporting evidence.
-
-**Review the implementation and test evidence:** [RoleHint](https://github.com/dokarpov/rolehint/actions) · [Intake Integrity Lab](https://github.com/dokarpov/intake-integrity-lab/actions) · [Intake browser experience](https://github.com/dokarpov/intake-integrity-site/actions) · [Oído](https://github.com/dokarpov/oido-site/actions) · [DARIA.EXE](https://github.com/dokarpov/daria-exe/actions). These links show the actual workflow history; a green result is meaningful only within the test's documented scope.
 
 ## Decisions behind the work
 
 **1. Why not test the app idea with an app?**  
 For an EdTech concept in the Philippines and Malaysia, I led research into how students actually talked, what they trusted and what they recognised. We first tested the idea through a chatbot—the less expensive environment where our assumptions could fail. The cost per activated user fell several-fold during these market tests. That was an *early activation result*, not evidence of long-term learning or retention.  
-[Read the commercial product story](https://www.linkedin.com/posts/dokarpov_a-client-came-to-me-with-an-app-idea-the-activity-7514271028982915072-nEgq) · [How I separate an activation signal from user value](https://www.linkedin.com/posts/dokarpov_an-activation-metric-can-improve-before-the-activity-7510288561187733504-k8Pu)
+
 
 **2. Why does a job search have to forget everything? — RoleHint**  
 Repeated CV entry, ineligible vacancies, invented AI achievements and rediscovered applications led me to model job search as one continuing decision process. Backend components are implemented; the fully connected web journey remains under development.  
-[Read the product decisions and inspect code/tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md) · [17 October product post](https://www.linkedin.com/posts/dokarpov_job-hunting-has-a-fascinating-feature-collective-activity-7517137903018295296-sVIi)
-
+[Read the product decisions and inspect code/tests](https://github.com/dokarpov/rolehint/blob/main/docs/CASE_ROLEHINT_PRODUCT_DECISIONS.md)
 **3. When does a phone number stop being someone's identity? — Intake Integrity**  
 A shared or recycled number can represent multiple people. I explored how to distinguish a clear match from an ambiguous one *before* a bad assignment reaches downstream CRM records, documents or payments.  
-[The problem in everyday language](https://www.linkedin.com/posts/dokarpov_who-else-has-got-a-new-phone-number-and-immediately-activity-7509342496011767810-qi04) · [Try the synthetic review flow](https://dokarpov.github.io/intake-integrity-site/preview/) · [Inspect engineering controls](https://github.com/dokarpov/intake-integrity-lab)
+[Try the synthetic review flow](https://dokarpov.github.io/intake-integrity-site/preview/) · [Inspect engineering controls](https://github.com/dokarpov/intake-integrity-lab)
 
 **4. Can a small business publish a useful storefront without changing its existing systems? — Oído**  
 As founding CPO, I work on the merchant setup proposition, multilingual guest experience, pilot design and what evidence would justify expanding the offer. A browser beta is available; paid merchant retention and payments economics still require independent validation.  
-[Explore Oído](https://dokarpov.github.io/oido-site/) · [Read the product and validation decisions](https://github.com/dokarpov/oido-site#product-case-for-reviewers)
+[Explore Oído](https://dokarpov.github.io/oido-site/) · [Inspect implementation and validation](https://github.com/dokarpov/oido-site)
 
 ## What former colleagues can corroborate
 
