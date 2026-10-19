@@ -5,7 +5,7 @@ Barcelona · Remote
 
 I lead products from discovery and strategy to launch and growth, combining product management, customer research and hands-on execution. Experience across EdTech, fintech and consumer technology.
 
-[Product & leadership experience](https://www.linkedin.com/in/dokarpov/) · [Dribbble](https://dribbble.com/dokarpov) · [Contact](mailto:dokarpov@gmail.com)
+[Linkedin](https://www.linkedin.com/in/dokarpov/) · [Design portfolio](https://dribbble.com/dokarpov) · [Email](mailto:dokarpov@gmail.com)
 
 ## Products
 
