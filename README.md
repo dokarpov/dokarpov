@@ -5,7 +5,8 @@ Barcelona · Remote
 
 I lead products from discovery and strategy to launch and growth, combining product management, customer research and hands-on execution across EdTech, fintech and consumer technology.
 
-[LinkedIn](https://www.linkedin.com/in/dokarpov/) · [Dribbble](https://dribbble.com/dokarpov) · [Email](mailto:dokarpov@gmail.com)
+**Consulting & advisory:** Product strategy, discovery, AI products and 0→1 execution.  
+[Work with me on Contra](https://contra.com/dokarpov) · [GLG Network Member](https://glg.com/) (expert consultations through GLG matching) · [LinkedIn](https://www.linkedin.com/in/dokarpov/) · [Email](mailto:dokarpov@gmail.com)
 
 ## Featured products
 
