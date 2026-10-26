@@ -22,7 +22,7 @@ Activation requires:
 3. Set the repository Actions variable `ENABLE_TRAFFIC_SNAPSHOT` to `true`.
 4. Run **Actions → GitHub traffic snapshot → Run workflow**, then verify that an artifact was produced and its collected_at time is recent.
 
-The workflow saves JSON snapshots as **private-to-workflow artifacts** (retention: 90 days, subject to repository settings). It does **not** publish counts into this public profile. A permanent historic warehouse should be a separate private repository or database if needed later.
+The workflow saves JSON snapshots as **GitHub Actions artifacts** (retention: 90 days, subject to repository settings). Artifacts in a public repository may be accessible according to GitHub's Actions permissions; store sensitive analysis in a separate private system. The workflow does **not** commit counts into this public profile. A permanent historic warehouse should be a separate private repository or database if needed later.
 
 API values are limited to a rolling **14-day window** and top referrers/paths are capped. **Do not sum overlapping 14-day unique-visitor totals** into a monthly unique count. For daily views, prefer date-keyed observations; identify revisions when a newer snapshot supersedes a previous count. Bot filtering and attribution are imperfect.
 
