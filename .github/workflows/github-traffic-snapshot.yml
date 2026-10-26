@@ -1,0 +1,29 @@
+name: GitHub traffic snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    if: ${{ vars.ENABLE_TRAFFIC_SNAPSHOT == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate collector offline
+        run: python -m unittest discover -s tests -p 'test_github_traffic_snapshot.py'
+      - name: Collect GitHub traffic
+        env:
+          PORTFOLIO_TRAFFIC_TOKEN: ${{ secrets.PORTFOLIO_TRAFFIC_TOKEN }}
+        run: python tools/github_traffic_snapshot.py
+      - name: Preserve dated snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-traffic-${{ github.run_id }}
+          path: reports/github-traffic-*.json
+          if-no-files-found: error
+          retention-days: 90
