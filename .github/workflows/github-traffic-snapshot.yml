@@ -1,6 +1,11 @@
 name: GitHub traffic snapshot
 
 on:
+  push:
+    paths:
+      - 'tools/github_traffic_snapshot.py'
+      - 'tests/test_github_traffic_snapshot.py'
+      - '.github/workflows/github-traffic-snapshot.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'
@@ -9,13 +14,19 @@ permissions:
   contents: read
 
 jobs:
-  collect:
-    if: ${{ vars.ENABLE_TRAFFIC_SNAPSHOT == 'true' }}
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Validate collector offline
         run: python -m unittest discover -s tests -p 'test_github_traffic_snapshot.py'
+
+  collect:
+    if: ${{ github.event_name != 'push' && vars.ENABLE_TRAFFIC_SNAPSHOT == 'true' }}
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - name: Collect GitHub traffic
         env:
           PORTFOLIO_TRAFFIC_TOKEN: ${{ secrets.PORTFOLIO_TRAFFIC_TOKEN }}
