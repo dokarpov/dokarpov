@@ -15,7 +15,7 @@ I lead products from discovery and strategy to launch and growth, combining prod
 
 **[RoleHint](https://dokarpov.github.io/rolehint/site/)** — Job discovery and application decisions, from hiring eligibility and experience matching to application tracking.
 
-**[Intake Integrity](https://dokarpov.github.io/intake-integrity-site/preview/)** — Checks incoming enquiries, resolves clear customer identities and sends uncertain matches for review before CRM entry.
+**[Acorde](https://dokarpov.github.io/intake-integrity-site/preview/)** — Checks incoming enquiries, resolves clear customer identities and sends uncertain matches for review before CRM entry.
 
 ## Projects in progress
 
