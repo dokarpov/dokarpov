@@ -17,7 +17,7 @@ I lead products from discovery and strategy to launch and growth, combining prod
 
 **[Acorde](https://dokarpov.github.io/intake-integrity-site/preview/)** — Checks incoming enquiries, resolves clear customer identities and sends uncertain matches for review before CRM entry.
 
-## Projects in progress
+## More products
 
 **[Planriva](https://dokarpov.github.io/planriva-site/preview/)** — Review drawing and model discrepancies with supporting references and architect decisions.
 
